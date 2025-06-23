@@ -1,0 +1,55 @@
+.container {
+  width: 600px;
+  margin: auto;
+}
+.uploadBox {
+  border: 2px dashed silver;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  margin-top: 44px;
+}
+.dragging {
+  border: 2px dashed green;
+  border-radius: 5px;
+  padding: 25px;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.uploadBox label {
+  background-color: lightgreen;
+  color: white;
+  font-size: 18px;
+  border-radius: 4px;
+  padding: 8px;
+  cursor: pointer;
+}
+.inputFiles {
+  display: none;
+}
+
+.preview {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+.preview img {
+  width: 80px;
+  height: 50px;
+}
+.info {
+  display: flex;
+  gap: 11px;
+}
+.preview button {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
